@@ -73,7 +73,7 @@ int get_size(ArrayList * l){
 }
 
 //remove elements
-void clean(ArrayList * l){
+void clean(ArrayList * list){
   free(list->data); 
     list->data = malloc(2 * sizeof(void*)); 
     list->size = 0; 
